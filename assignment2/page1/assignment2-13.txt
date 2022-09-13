@@ -1,0 +1,22 @@
+public class sample {
+    public static void main(String[] args) {
+
+
+        int i, j, row = 5;
+       int apha = 65;
+        for (i = 0; i <= row-1; i++) {
+
+            for (j =(row - i)-1; j >= 0; j--) {
+
+                System.out.print(" ");
+            }
+
+            for (int k =0; k <=i; k++) {
+
+                System.out.print((char)(apha+i)+" ");
+            }
+
+            System.out.println();
+        }
+    }
+}
